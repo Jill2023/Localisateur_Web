@@ -1,0 +1,41 @@
+.first
+{
+  color:red;
+  font-size:x-large;
+  font-weight:bold;
+ }
+ 
+ .second
+ {
+   font-style: italic;
+   font-size:large;
+   font-weight:bold;
+ }
+ 
+table,td
+{
+	border-width:1.2;
+	border-style:solid;
+	border-color:black;
+	width:600px;	
+	background-color:#ADD8E6;	
+	
+} 
+
+.third
+{
+   font-size:large;
+   font-weight:bold;
+   text-align:center;
+}
+
+.forth
+{
+  font-size:large;
+  text-align:center;
+}
+
+body
+{
+	background-image:url("background.jpg");
+}
