@@ -35,16 +35,6 @@ driver.switch_to.window(driver.window_handles[0])
 driver.find_element(By.XPATH,'//a[@href="index.html"]').click()
 time.sleep(3)
 
-#driver.find_element(By.XPATH,'//a[@href="page.html"]').click()
-#time.sleep(3)
-#driver.find_element(By.XPATH,'//a[@href="mailto:info@chineseschool-mtl.com"]').click()
-
-
-#main_window_handle = driver.current_window_handle
-#driver.switch_to.window(main_window_handle)
-
-#driver.find_element(By.XPATH,'//a[@href="index.html"]').click()
-#time.sleep(3)
 driver.find_element(By.XPATH,'//a[text()="Cours"]').click()
 time.sleep(3)
 driver.find_element(By.XPATH,'//a[@href="https://chineseschool-mtl.com/fr/formulaire-dinscription/"]').click()
